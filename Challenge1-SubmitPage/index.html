@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>Submitable Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="Style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        Challenge 1 -> Create SignInSignUpForm -> 1h30
+    </nav>
+    <main>
+        <div id="container">
+            <div id="sectionMenu">
+                <button class="sectionButton active" id="SignupbuttonSection">Sign Up</button>
+                <button class="sectionButton" id="SignInButtonSection">Sign In</button>
+            </div>
+            <section id="SignUpSection">
+                <header>
+                    <h2>Welcome</h2>
+                    <p>Create your free Submittable account to get started.</p>
+                </header>
+                <form>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" />
+                    <label for="password"> Password</label>
+                    <input type="password" name="password">
+                    <label for="confirmPassword"> Confirm Password</label>
+                    <input type="password" name="confirmPassword" />
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" />
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" />
+                    <input type="submit" value="Sign Up" class="SignUpButton" />
+                </form>
+
+            </section>
+            <section id="SignInSection">
+                <header>
+                    <h2>Welcome back!</h2>
+                    <p>Sign in to your Subittable account.</p>
+                </header>
+                <form>
+                    <label for="email">Email</label>
+                    <input type="email" name="loginEmail" />
+                    <label for="password">Password</label>
+                    <input type="password" name="loginPassword" />
+                    <input type="submit" value="Sign In" class="SignUpButton" />
+                    <button class="signupButton" id="facebookButton">Sign in with Facebook</button>
+                    <button class="signupButton" id="googleButton">Sign in with Google</button>
+                </form>
+            </section>
+        </div>
+
+    </main>
+</body>
+<script src="Script.js"></script>
+
+</html>
